@@ -47,10 +47,10 @@ public class DemoIncrement {
         int x = 3;
         int y = ++x + 5;
 
-        System.out.print("a: " + a);
-        System.out.print(", b: " + b);
-        System.out.print(", x: " + x);
-        System.out.println(", y: " + y);
+        System.out.print("a: " + a); // 3
+        System.out.print(", b: " + b); // 8
+        System.out.print(", x: " + x); // 3
+        System.out.println(", y: " + y); // 9
 
         // Replace the xxxxx in the following with the correct term
         System.out.println("i++ means xxxxx-increment");
