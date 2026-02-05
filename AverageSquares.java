@@ -30,10 +30,14 @@ public class AverageSquares {
         //     sum = sum + (i*i);
         // }
         int temp = startNum;
-        while (startNum < (endNum+1) ){
+        // while (startNum < (endNum+1) ){
+        //     sum += startNum*startNum;
+        //     ++startNum;
+        // }
+        do {
             sum += startNum*startNum;
             ++startNum;
-        }
+        }while (startNum < (endNum+1) );
 
         System.out.print(sum/(endNum +1 - temp));
     }
